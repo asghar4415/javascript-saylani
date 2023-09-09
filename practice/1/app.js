@@ -32,3 +32,4 @@ var age=20      // int, float, double
 var isFeePaid=true     // boolean
 var fee=null       // null
 var abc            // undefined
+
