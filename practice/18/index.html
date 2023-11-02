@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- onblur is used to call a function when the user leaves the input field
+onfocus is used to call a function when the user focuses on the input field
+onkeyup is used to call a function when the user releases a key
+onkeypress is used to call a function when the user presses a key
+onchange is used to call a function when the user changes the content of an input field -->
+
+
+<input type="text" id="username" onblur="blurmode(this)" onkeyup="pressEvent(this)" onkeypress="pressEvent(this)" onfocus="focusmode(this)" placeholder="Enter your name" style="border: 1px solid black;" >
+<br>
+<small id="helpertext"></small>
+<br>
+<button onclick="submit()">Submit</button>
+    
+</body>
+<script src="app.js"></script>
+</html>
