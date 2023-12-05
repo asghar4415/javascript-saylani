@@ -1,0 +1,23 @@
+
+#usertable
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+#usertable tr
+{
+    border: 1px solid black;
+}
+#usertable td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
