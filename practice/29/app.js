@@ -62,3 +62,4 @@ async function getData()
 var getDataBtn = document.getElementById("getdata");
 getDataBtn.addEventListener("click", getData);
 
+//learn data mapping
