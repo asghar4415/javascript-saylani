@@ -4,15 +4,13 @@ import {
     signInWithEmailAndPassword,
 } from "./firebase.js";
 
- // Your web app's Firebase configuration
- const firebaseConfig = {
-   apiKey: "AIzaSyAvaLF530Xg2iTAfcf8-Ni8DIJyk5ka8is",
-   authDomain: "fir-class-1-5ce1f.firebaseapp.com",
-   projectId: "fir-class-1-5ce1f",
-   storageBucket: "fir-class-1-5ce1f.appspot.com",
-   messagingSenderId: "79462474838",
-   appId: "1:79462474838:web:920c7fadea9f3a543a47f7"
- };
+import{
+    collection,
+    addDoc,
+    getDocs,
+    doc,
+    db, 
+} from "./firebase.js";
 
 var addDatabtn = document.getElementById("adddata");
 addDatabtn.addEventListener("click", addData);
